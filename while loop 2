@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //while loop""
+
+    int i=1;
+
+    while(i<=20){
+        printf("%d\n",i);
+        i++;
+    }
+
+
+    return 0;
+}
