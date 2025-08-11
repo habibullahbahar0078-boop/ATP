@@ -1,0 +1,22 @@
+
+#include<stdio.h>
+#include<stdbool.h>
+int main(){
+
+int age  = 2000;
+char section ='A';
+float salary=500000.565;
+double bonousSalary =30000.46746;
+bool married = false;
+
+printf("age:%d\n",age);
+printf("section:%c\n",section);
+printf("salary:%f\n",salary);
+printf("bonous:%lf\n",bonousSalary);
+printf("married:%d\n",married);
+return 0;
+
+}
+
+
+
