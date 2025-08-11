@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int num1=5;
+   char num2='A';
+   float num3=4.56;
+   double num4=8.3353;
+   printf("int:%d\n char:%c\n float:%f\n double:%lf\n",num1,num2,num3,num4);
+
+   printf("VERY GOOD CODES");
+
+    return 0;
+}
