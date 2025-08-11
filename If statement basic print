@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+   int number;
+
+   printf("Enter int :");
+   scanf("%d",&number);
+
+   if(number <0){
+    printf("You entered %d\n",number);
+
+       }
+
+   printf("The if statement is easy");
+
+
+
+    return 0;
+}
