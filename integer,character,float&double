@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num1;
+    char num2;
+    float num3;
+    double num4;
+
+    printf("Enter integer number:");
+    scanf("%d", &num1);
+
+    printf("Enter Your character:");
+    scanf(" %c", &num2);
+
+    printf("Enter float number:");
+    scanf("%f", &num3);
+
+    printf("Enter double number");
+    scanf("%lf", &num4);
+
+
+
+    printf("integer number:%d\n",num1);
+    printf("character:%c\n",num2);
+    printf("Float number:%f\n",num3);
+    printf("Double number:%lf",num4);
+
+
+
+    return 0;
+
+}
