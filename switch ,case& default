@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() //goto key words.
+{
+   int n1,n2;
+   char operation,raw;
+
+   jump:
+
+   printf("Enter a operator(+,-,*,/):");
+   scanf("%c",&operation);
+
+   printf("Enter two oponands:");
+   scanf("%d %d",&n1,&n2);
+
+   switch(operation){
+   case'+':
+    printf("%d+%d=%d",n1,n2,n1+n2);
+    break;
+
+   case'-':
+    printf("%d-%d=%d",n1,n2,n1-n2);
+    break;
+
+   case'*':
+     printf("%d*%d=%d",n1,n2,n1*n2);
+    break;
+
+   case'/':
+     printf("%d/%d=%d",n1,n2,n1/n2);
+    break;
+
+   default:
+    printf("Error input!.Try again\n");
+    scanf("%c",&raw);
+    goto jump;
+
+
+   }
+
+    return 0;
+}
